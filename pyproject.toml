@@ -1,0 +1,12 @@
+[project]
+name = "preprocessing-unstructured-data-for-llms-and-rag-systems"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain-chroma>=1.0.0",
+    "sqlalchemy>=2.0.44",
+    "unstructured>=0.18.21",
+    "unstructured-client>=0.42.4",
+]
